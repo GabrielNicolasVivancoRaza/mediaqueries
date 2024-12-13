@@ -40,11 +40,11 @@ body {
 }
 
 /* Media Queries para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .menu {
         flex-direction: column;
         gap: 10px;
-        color: black;
+        color: red;
     }
 
     .box {
@@ -56,10 +56,12 @@ body {
 @media (max-width: 480px) {
     .header {
         padding: 10px;
+        color: black;
     }
 
     .menu a {
         font-size: 14px;
+        color: black;
     }
 
     .box {
